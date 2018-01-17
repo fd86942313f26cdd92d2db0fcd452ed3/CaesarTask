@@ -29,15 +29,32 @@ https://ru.wikipedia.org/wiki/Шифр_Цезаря
 ```
 Внутри файла `Ях.txt`
 
-# Условия
+# Условия  
+
 В корректно расшифрованной строке обязательно будет присутствовать текст `бог`, я гарантирую это  
-Не использовать встроенные функции ord() и chr()
+
+Не использовать встроенные функции ord() и chr()  
+
 ---
 
 # Материалы для самостоятельного изучения
 
 ## Работа с файлами  
+
 https://metanit.com/python/tutorial/4.1.php  
 https://metanit.com/python/tutorial/4.2.php  
 
-## Работа со строками
+## Коллекции
+https://docs.python.org/3/library/collections.html#deque-objects  
+^ Русицифированный вариант https://pythonworld.ru/moduli/modul-collections.html  
+п.с. обрати внимание на метод **.rotate()**
+
+### Дикие хинты, не читай ниже, пока не отчаялся.
+
+Статья "Если бы у Цезаря был Питон в 50 году до н.э."  
+https://impythonist.wordpress.com/2014/09/11/alas-julius-caesar-doesnt-have-python-in-50-bc/  
+Статья содержит реализацию функций, когда сдвиг известен.
+
+Статья с более подробным разбором задачи, но с использованием ASCII таблиц.  
+http://inventwithpython.com/chapter14.html  
+Тут может быть интересна функция по BruteForce атаке.
